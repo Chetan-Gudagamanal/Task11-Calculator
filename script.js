@@ -26,6 +26,9 @@ function myFunction(id){
     if(id=="="){
         try{
             output=eval(input)
+            if(output===undefined){
+                output=0;
+            }
             element.innerHTML=output
             input=output
             flag=1;
