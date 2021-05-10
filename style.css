@@ -1,33 +1,3 @@
-/* @media (min-width: 400px) {
-    .calc{
-        padding: 5% 15%
-    }
-    #screenText{
-        font-size: 15px;
-        color: blue;
-    }
-}
-@media (min-width: 600px) {
-    .calc{
-        padding: 5% 20%
-    }
-    #screenText{
-        font-size: 18px;
-        color: blue;
-    }
-}
-@media (min-width: 800px) {
-    .calc{
-        padding: 5% 20%
-    }
-}
-@media (min-width: 1000px) {
-    .calc{
-        padding: 5% 30%
-    }
-} */
-
-
 
 .card{
     background-color: black;
