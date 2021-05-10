@@ -1,3 +1,4 @@
+//HTML elements
 const div1=document.createElement("div");
 div1.setAttribute("class","container-fluid calc text-center");
 document.body.append(div1);
@@ -506,7 +507,7 @@ function myFunction(id){
     let element=document.getElementById("screenText")
     if(eval(element.innerHTML==0)&& !element.innerHTML.includes("."))
     {
-        if(id=="."){
+        if(id=="." || id=="+" || id=="-" || id=="*" || id == "/" || id == "%"){
             input="0"
         }
         else{
